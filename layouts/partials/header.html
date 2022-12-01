@@ -101,4 +101,7 @@
 	<script src="{{ $.Site.BaseURL }}{{ . }}"></script>
 	{{- end }}
 	{{- end }}
+
+  <!-- Math -->
+  {{ if .Params.math }}{{ partial "helpers/katex.html" . }}{{ end }}
 </head>
