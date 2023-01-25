@@ -1,6 +1,9 @@
 <header>
 	<div class="main">
-		<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+		<div class="head-title">
+			<img src="{{ .Site.BaseURL }}img/logo.png" class="saq-logo"/>
+			<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+		</div>
 	</div>
 	<nav>
 		{{ range .Site.Menus.main }}

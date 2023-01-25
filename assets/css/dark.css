@@ -1,22 +1,22 @@
 body {
   color: white;
-  background-color: #202124;
+  background-color: #060203;
 }
 
 ::-moz-selection {
-  background: blue;
+  background: #0d7dac;
   color: #fff;
   text-shadow: none;
 }
 
 ::selection {
-  background: red;
+  background: #ebb028;
   color: #fff;
   text-shadow: none;
 }
 
 hr {
-  border-top: 3px dotted blue;
+  border-top: 3px dotted #0d7dac;
 }
 code {
   background-color: lightblue;
@@ -31,7 +31,7 @@ pre {
   padding: 1em;
 }
 blockquote {
-  border-color: blue;
+  border-color: #0d7dac;
 }
 
 h1,

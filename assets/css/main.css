@@ -1,10 +1,10 @@
 /* Markdown */
 :root{
---maincolor: red;
---bordercl:rebeccapurple;
---callouctcolor:dodgerblue;
---hovercolor:navy;
---darkMaincolor: #50fa7b;
+--maincolor: #ebb028;
+--bordercl:#0d97ac;
+--callouctcolor:#0d7dac;
+--hovercolor:#0d7dac;
+--darkMaincolor: #ebb028;
 }
 html {
   color: #232333;
@@ -69,6 +69,18 @@ ul > li::before {
 img {
   border: 3px solid #ececec;
   max-width: 100%;
+}
+
+.saq-logo {
+  border: none;
+  width: 1.8rem;
+  height: auto;
+  transform: translateY(0.6rem);
+}
+
+.head-title {
+  width: fit-content;
+  height: fit-content;
 }
 
 figure {
